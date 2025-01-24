@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: Helvetica;
 }
 .navbar {
   position: sticky;
@@ -9,7 +10,7 @@ body {
   z-index: 10;
 }
 .main {
-  height: 1300px;
+  height: 1500px;
 }
 .bgimage {
   height: 720px;
@@ -20,28 +21,42 @@ body {
   position: static;
   filter: blur(6px);
 }
-.navbar div.left a {
+.reglog a {
+  float: right;
+  background-color: #252525;
+  color: #f2f2f2;
+  width: 110px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 0;
+}
+.home {
+  float: left;
+  background-image: url(images/betterlogo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: #202020;
+  width: 110px;
+  height: 60px;
+  border: none;
+}
+.home:hover {
+  background-color: #ae8c02;
+}
+.navbuttonleft a {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 16px 25px;
   text-decoration: none;
   font-size: 20px;
-  font-family: Helvetica;
   font-weight: bold;
-}
-.navbar div.reglog a {
-  float: right;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 16px 25px;
-  text-decoration: none;
-  font-size: 20px;
-  font-family: Helvetica;
-  font-weight: bold;
-}
-.navbar a.home {
-  background-color: #252525;
+  padding: 15px 0px;
+  width: 110px;
+  height: 30px;
 }
 .navbar a:hover {
   background-color: #ae8c02;
@@ -52,9 +67,7 @@ body {
   top: 320px;
   margin-bottom: 320px;
   color: #f2f2f2 ;
-  font-family: Helvetica;
   z-index: 9;
-  background-color: rgb(0,0,0);
   background-color: rgba(0, 0, 0, 0.4);
 }
 .vertical-center {
@@ -76,34 +89,85 @@ p {
   font-size: 20px;
   font-weight: lighter;
 }
-img {
-  width: 75px;
-  height: 52.5px;
-}
 .rooms {
   text-align: center;
+  box-sizing: border-box;
+  width: 100%;
 }
 .column {
-  float:left;
-  width: 33%;
-  height: 400px;
-  padding-top: 10px;
-  font-family: Helvetica;
+  float: left;
+  width: 33.2%;
+  height: 600px;
   font-size: 50px;
   font-weight: bold;
   color: #f2f2f2;
   background-color: #404040;
-  border: 3px solid #303030 ;
+  border: 1px solid #404040;
+
+}
+
+.c3 {
+  float: right;
+}
+.c2 {
+  float: none;
+  margin: auto;
 }
 h4 {
-  margin: 10px;
+  margin: 0;
 }
-.foot {
-  height: 200px;
-  background-color: #ae8c02;
+footer {
+  padding: 20px;
+  height: 50px;
+  background-color: #202020;
   border: none;
   padding: auto;
+  color: #f2f2f2;
+  text-align: center;
 }
-.c1 {
-  background-image: url;
+.bed1 {
+  height: 100%;
+  background-image: url(/images/bed.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: static;
+}
+.bedtext1 {
+  background-color: #404040aa;
+  position: static;
+  margin-top: -600px;
+  height: 200px;
+}
+.bed2 {
+  height: 100%;
+  background-image: url(/images/bed2.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: static;
+}
+.bedtext2 {
+  background-color: #404040aa;
+  position: static;
+  margin-top: -600px;
+  height: 200px;
+}
+.kit1 {
+  height: 100%;
+  background-image: url(/images/bed.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: static;
+}
+.kittext {
+  background-color: #404040aa;
+  position: static;
+  margin-top: -600px;
+  height: 200px;
+}
+.bullet {
+  font-size: 20px;
+  font-weight: lighter;
 }
