@@ -1,0 +1,219 @@
+body {
+    margin:0;
+    font-family: Helvetica;
+    background-color: #101010;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #202020;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+  }
+  .main {
+    height: 1000px;
+  }
+  .reglog button {
+    float: right;
+    background-color: #252525;
+    color: #f2f2f2;
+    width: 110px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 0;
+    border: none;
+  }
+  .home {
+    float: left;
+    background-image: url(images/betterlogo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #202020;
+    width: 110px;
+    height: 60px;
+    border: none;
+  }
+  .home:hover {
+    background-color: #ae8c02;
+  }
+  .navbuttonleft button {
+    float: left;
+    background-color: #202020;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 0px;
+    width: 110px;
+    height: 60px;
+    border: none;
+  }
+  .navbar a:hover , .navbar button:hover {
+    background-color: #ae8c02;
+  }
+  .container {
+    width: 60%;
+    margin: 0 20%;
+    position: absolute;
+    top: 280px;
+    color: #f2f2f2 ;
+    z-index: 9;
+    background-color: #f2f2f260;
+    border-radius: 5px;
+  }
+  .vertical-center {
+    text-align: center;
+  }
+  h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 20px;
+  }
+  h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: auto;
+  }
+  p {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  footer {
+    padding: 20px;
+    height: 100px;
+    background-color: #202020;
+    border: none;
+    color: #f2f2f2;
+    text-align: center;
+  }
+  .house {
+    padding: 30px 50px;
+    background-color: #f2f2f2;
+    z-index: 11;
+    position: absolute;
+    top: 380px;
+    margin: 0 10%;
+    width: 80%;
+    height: 300px;
+    border-radius: 3px;
+  }
+  .h2text {
+  margin-left: 400px;
+  }
+  .ptext {
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 400px;
+    padding-right: 50px;
+  }
+  .call {
+    font-size: 30px;
+    padding-left: 400px;
+    font-weight: bold;
+  }
+  .price {
+    float: right;
+    padding-right: 50px;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  .houseimg {
+    float: left;
+    width: 30%;
+  }
+  
+  
+  
+  
+  
+  
+  
+  * {box-sizing: border-box}
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #202020;
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #101010;
+    outline: none;
+    color: #f2f2f2;
+  }
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  button:hover {
+    opacity:1;
+  }
+  .signup {
+    width: 100px;
+  }
+  .modcon {
+    padding: 20px;
+  }
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 11; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d60;
+    padding-top: 50px;
+  }
+  .modalcontent {
+    background-color: #404040;
+    color: #f2f2f2;
+    margin: 5% auto 15%; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+  }
+  .textsignup {
+    text-align: center;
+  }
+  hr {
+    border: 1px solid #606060;
+    margin-bottom: 25px;
+  }
+  .close {
+    position: absolute;
+    right: 400px;
+    top: 35x;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #f44336;
+    cursor: pointer;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  @media screen and (max-width: 300px) {
+    .signupbtn {
+      width: 100%;
+  
+    }
+  }
