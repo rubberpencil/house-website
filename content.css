@@ -144,7 +144,7 @@ footer {
 }
 .bed1 {
   height: 100%;
-  background-image: url(/images/bed.png);
+  background-image: url(images/bed.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -158,7 +158,7 @@ footer {
 }
 .bed2 {
   height: 100%;
-  background-image: url(/images/bed2.png);
+  background-image: url(images/bed2.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -172,7 +172,7 @@ footer {
 }
 .liv1 {
   height: 100%;
-  background-image: url(/images/liv.png);
+  background-image: url(images/liv.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -193,7 +193,7 @@ footer {
 }
 .kit {
   height: 100%;
-  background-image: url(/images/kit.png);
+  background-image: url(images/kit.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -207,7 +207,7 @@ footer {
 }
 .pool {
   height: 100%;
-  background-image: url(/images/pool.png);
+  background-image: url(images/pool.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -221,7 +221,7 @@ footer {
 }
 .gar {
   height: 100%;
-  background-image: url(/images/gar.png);
+  background-image: url(images/gar.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
